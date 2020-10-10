@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Products from "./components/pages/Products";
 import Services from "./components/pages/Services";
 import SingUp from "./components/pages/SingUp";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path='/products' component={Products}/>
                 <Route path='/sing-up' component={SingUp}/>
             </Switch>
+            <Footer/>
         </Router>
     </>
   );
