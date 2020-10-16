@@ -11,6 +11,9 @@
 # production
 /build
 
+# idea
+/.idea
+
 # misc
 .DS_Store
 .env.local
@@ -21,3 +24,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.gitignore
+yarn.lock
+README.md
+package.json
+package-lock.json
