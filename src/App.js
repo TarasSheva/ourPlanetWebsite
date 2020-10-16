@@ -19,6 +19,7 @@ function App() {
                 <Route path='/services' component={Services}/>
                 <Route path='/products' component={Products}/>
                 <Route path='/sing-up' component={SingUp}/>
+                <Route path='/sing-up' component={SingUp}/>
             </Switch>
             <Footer/>
         </Router>
